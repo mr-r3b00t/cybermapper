@@ -3,7 +3,7 @@ $location='-33.8670522%2C151.1957362'
 $location='51.5285582%2C-0.2416782'
 $radius='2000000'
 $type='hospital'
-$url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?keyword=cruise&location=$location&radius=$radius&type=$type&key=$key"
+$url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?keyword=location=$location&radius=$radius&type=$type&key=$key"
 
 #$url
 
